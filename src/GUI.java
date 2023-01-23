@@ -9,21 +9,24 @@ public class GUI implements ActionListener {
     JFrame frame = new JFrame();
     JPanel panel = new JPanel();
     public GUI() {
+        frame.setSize(600, 200);
         panel.setBorder(BorderFactory.createEmptyBorder(250, 250, 250, 250));
-        panel.setLayout(new GridLayout(0,1));
+        panel.setLayout(new GridLayout(1,3));
+        for (int i = 0; i < animals.length; i++){
+            JButton button = new JButton();
+            button.setIcon(animals[i].icon);
+            panel.add(button);
+        }
         frame.add(panel, BorderLayout.CENTER);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setTitle("Animals");
         frame.pack();
         frame.setVisible(true);
+
         displayAnimals();
     }
     public void displayAnimals() {
-        for (int i = 0; i < animals.length; i++){
-            JButton button = new JButton();
-            button.setIcon(animals[i].icon);
-            frame.add(button);
-        }
+
     }
 
 

@@ -26,7 +26,7 @@ public class GUI implements ActionListener {
             des.setHorizontalAlignment(JLabel.CENTER);
             des.setVerticalAlignment(JLabel.TOP);
             button.setIcon(animals[i].icon);
-            panel.add(button, i);
+            panel.add(button,JButton.CONTENT_AREA_FILLED_CHANGED_PROPERTY, i);
             panel.add(des);
 
             int finalI = i;
@@ -35,7 +35,7 @@ public class GUI implements ActionListener {
                 public void actionPerformed(ActionEvent e) {
                     
                     speciesPanel.setBorder(BorderFactory.createEmptyBorder(250, 250, 250, 250));
-                    speciesPanel.setLayout(new GridLayout(2,3));
+                    speciesPanel.setLayout(new GridLayout(2,10));
                     speciesPanel.setBackground(Color.YELLOW);
                     panel.setVisible(false);
                     try {

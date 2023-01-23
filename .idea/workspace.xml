@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80bb7896-97c0-467b-9a3a-ebeb53fbc4ff" name="Changes" comment="GUI updated, almost finished">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cardinal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Human.java" afterDir="false" />
+    <list default="true" id="80bb7896-97c0-467b-9a3a-ebeb53fbc4ff" name="Changes" comment="Added more classes">
+      <change afterPath="$PROJECT_DIR$/Bass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cardinal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Human.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fish.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mammal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mammal.java" afterDir="false" />
     </list>
@@ -94,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674437866226</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added more classes">
+      <created>1674444859471</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674444859471</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +117,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Images updated and GUI class" />
     <MESSAGE value="GUI updated, almost finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="GUI updated, almost finished" />
+    <MESSAGE value="Added more classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more classes" />
   </component>
 </project>

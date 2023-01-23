@@ -1,8 +1,8 @@
 public class Bird extends Animal{
     int flightHours;
 
-    public Bird(String pic, String description, String icon, int flightHours) {
-        super(pic, description, icon);
+    public Bird(String description, String icon, int flightHours) {
+        super(description, icon);
         this.flightHours = flightHours;
     }
 }
